@@ -23,8 +23,7 @@
       "main.js",
       "control.html",
       "log.html",
-      "package.json",
-      "cs-gsi-websocket.js"
+      "package.json"
     ],
     "win": {
       "target": "portable",
