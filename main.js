@@ -42,7 +42,7 @@ function createMainWindow() {
 function createControlWindow() {
   controlWindow = new BrowserWindow({
     width: 700,
-    height: 300,
+    height: 220,
     transparent: false,
     autoHideMenuBar: true,
     webPreferences: {
@@ -123,11 +123,6 @@ app.on("activate", () => {
 
 ipcMain.on("refresh-main-window", () => {
   if (mainWindow) mainWindow.reload();
-});
-
-ipcMain.on("relaunch-app", () => {
-  app.relaunch();
-  app.quit();
 });
 
 // IPC event for hiding the main window

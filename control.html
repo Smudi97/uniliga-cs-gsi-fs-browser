@@ -28,23 +28,25 @@
         color: red;
       }
       #urlInput {
+        text-align: center;
         font-size: 16px;
         height: 100%;
         width: 100%;
       }
+      #shutdown {
+        background-color: #fc6265;
+      }
     </style>
   </head>
   <body>
-    <button id="relaunch">Relaunch App</button>
-    <button id="shutdown">Shutdown App</button>
     <input type="text" id="urlInput" placeholder="Enter New Overlay URL" />
-    <button id="loadUrl">Load Overlay URL</button>
+    <button id="loadUrl">Load New Overlay URL</button>
     <button id="runScript">Rerun CS2 WebSocket Script</button>
     <button id="refresh">Refresh Overlay</button>
     <button id="show">Show Fullscreen Overlay</button>
     <button id="hide">Hide Fullscreen Overlay</button>
-
     <button id="openLogButton">Open Message Log Window</button>
+    <button id="shutdown">Shutdown App</button>
 
     <script>
       const { ipcRenderer } = require("electron");
@@ -63,10 +65,6 @@
 
       document.getElementById("refresh").addEventListener("click", () => {
         ipcRenderer.send("refresh-main-window");
-      });
-
-      document.getElementById("relaunch").addEventListener("click", () => {
-        ipcRenderer.send("relaunch-app");
       });
 
       document.getElementById("hide").addEventListener("click", () => {
