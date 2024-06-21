@@ -18,6 +18,6 @@ You also have a few other options, among which is the "Open Message Log Window".
 
 If you close the control panel or click "Shutdown App", the CS2 GSI will stop communicating with the CS2 ingame overlay and thus no data will be displayed. You can close the Fullscreen Overlay and the Log Window at any time without any issues.
 
-Once you've loaded up the game, you also have to execute the uniliga-hud.cfg inside CounterStrike by opening the ingame console and typing in "exec uniliga-hud.cfg". This will configure the ingame hud so that only the necessary ingame elements remain visible.
+Once you've loaded up the game, you also have to execute the uniliga-hud.cfg inside Counter-Strike by opening the ingame console and typing in "exec uniliga-hud.cfg". This will configure the ingame hud so that only the necessary ingame elements remain visible.
 
 That's it. Have fun.
