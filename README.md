@@ -1,10 +1,10 @@
-## This app is supposed to be used in conjunction with the Uniliga CG Overlays App and its Overlays.
+# This app is supposed to be used in conjunction with the Uniliga CG Overlays App and its Overlays.
 
 The zip found in the [releases tab](https://github.com/Smudi97/uniliga-cs-gsi-fs-browser/releases) holds three files:
 
-- a "Uniliga CG CS GSI 1.0.0.exe"
-- a "gamestate_integration_uniligacg.cfg"
-- and a "uniliga-hud.cfg"
+- Uniliga CG CS GSI 1.0.0.exe
+- gamestate_integration_uniligacg.cfg
+- uniliga-hud.cfg
 
 Before you can use any of it, you should unzip the file into a folder of your choice.
 
